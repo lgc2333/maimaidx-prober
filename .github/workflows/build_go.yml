@@ -26,7 +26,7 @@ jobs:
             goarch: "386"
           - goos: android
             goarch: amd64
-          - goos: darwin
+          - goos: android
             goarch: arm
       fail-fast: true
     steps:
